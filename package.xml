@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>pr2_sensor_grasping</name>
-  <version>0.0.1</version>
-  <description>The pr2_sensor_grasping package</description>
+    <name>pr2_sensor_grasping</name>
+    <version>0.0.1</version>
+    <description>The pr2_sensor_grasping package</description>
 
-  <maintainer email="jeroen.schaefer@uni-bremen.de">Jeroen Schäfer</maintainer>
-  <maintainer email="hassouna@uni-bremen.de">Vanessa Hassouna</maintainer>
+    <maintainer email="jeroen.schaefer@uni-bremen.de">Jeroen Schäfer</maintainer>
+    <maintainer email="hassouna@uni-bremen.de">Vanessa Hassouna</maintainer>
 
-  <!-- One license tag required, multiple allowed, one license per tag -->
-  <!-- Commonly used license strings: -->
-  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>BSD</license>
+    <!-- One license tag required, multiple allowed, one license per tag -->
+    <!-- Commonly used license strings: -->
+    <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+    <license>BSD</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>actionlib</build_depend>
-  <build_depend>pr2_gripper_sensor_action</build_depend>
-  <build_depend>roscpp</build_depend>
-  <build_export_depend>actionlib</build_export_depend>
-  <build_export_depend>pr2_gripper_sensor_action</build_export_depend>
-  <build_export_depend>roscpp</build_export_depend>
-  <exec_depend>actionlib</exec_depend>
-  <exec_depend>pr2_gripper_sensor_action</exec_depend>
-  <exec_depend>roscpp</exec_depend>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>actionlib</build_depend>
+    <build_depend>pr2_gripper_sensor_action</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_export_depend>actionlib</build_export_depend>
+    <build_export_depend>pr2_gripper_sensor_action</build_export_depend>
+    <build_export_depend>roscpp</build_export_depend>
+    <exec_depend>actionlib</exec_depend>
+    <exec_depend>pr2_gripper_sensor_action</exec_depend>
+    <exec_depend>roscpp</exec_depend>
 
-  <export>
-  </export>
+    <export>
+    </export>
 </package>
