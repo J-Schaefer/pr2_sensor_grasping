@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/jesch/ros_ws/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/jesch/ros_ws/catkin_ws/src/gripper_grasp/include/**",
+        "/home/jesch/ros_ws/catkin_ws/src/pr2_control/include/**",
+        "/home/jesch/ros_ws/catkin_ws/src/robot_state_publisher/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

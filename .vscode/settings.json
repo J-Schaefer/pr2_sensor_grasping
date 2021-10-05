@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jesch/ros_ws/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/jesch/local/lib/python/site-packages",
+        "/home/jesch/local/lib/python3/site-packages",
+        "/home/jesch/local/lib/python3.8/site-packages",
+        "/home/jesch/local/lib/python3.8/dist-packages",
+        "/home/jesch/local/lib/python3.8/site-packages",
+        "/home/jesch/local/lib/python3.8/dist-packages",
+        "/home/jesch/local/lib/python/dist-packages",
+        "/home/jesch/local/lib/python3/dist-packages"
+    ]
+}
