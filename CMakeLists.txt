@@ -26,9 +26,10 @@ include
   ${catkin_INCLUDE_DIRS}
 )
 
-## Declare a C++ executable
 add_executable(gripper_sensor_node src/gripper_sensor_node.cpp)
-## Add cmake target dependencies of the library
 add_dependencies(gripper_sensor_node ${catkin_EXPORTED_TARGETS})
-## Specify libraries to link a library or executable target against
 target_link_libraries(gripper_sensor_node ${catkin_LIBRARIES})
+
+add_executable(force_control_gripper_node src/force_control_gripper_node.cpp)
+add_dependencies(force_control_gripper_node ${catkin_EXPORTED_TARGETS})
+target_link_libraries(force_control_gripper_node ${catkin_LIBRARIES})
